@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Santé : Maladies Chroniques</title>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js" defer></script>
+    <script src="chart.js" defer></script> <!-- Nouveau fichier pour le camembert -->    
+
+</head>
+<body>
+
+    <div class="container">
+        <h1>Quiz Santé : Maladies Chroniques</h1>
+        <div class="question" id="question"></div>
+
+        <div class="buttons">
+            <button id="btn1" onclick="checkAnswer(1)">A</button>
+            <button id="btn2" onclick="checkAnswer(2)">B</button>
+            <button id="btn3" onclick="checkAnswer(3)">C</button>
+            <button id="btn4" onclick="checkAnswer(4)">D</button>
+        </div>
+
+        <div class="emoji" id="emoji"></div>
+        <div class="info" id="info"></div>
+
+        <br>
+
+        <button class="next-btn" id="nextBtn" onclick="nextQuestion()">Question suivante</button>
+
+        <div class="final-score" id="finalScore"></div>
+
+        <div class="resources" id="resources">
+            <p>Pour en savoir plus, consultez ces ressources :</p>
+            <a class="resource-link" href="https://www.who.int/news-room/fact-sheets/detail/chronic-diseases" target="_blank">Organisation Mondiale de la Santé</a><br>
+            <a class="resource-link" href="https://www.cdc.gov/chronicdisease/resources/infographic/chronic-diseases.htm" target="_blank">Centers for Disease Control and Prevention</a>
+        </div>
+    </div>
+ 
+</body>
+</html>

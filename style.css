@@ -1,0 +1,114 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    max-width: 850px;
+    text-align: center;
+    width: 100%;
+    border: 2px solid #b0c4de;
+}
+
+h1 {
+    color: #4682b4;
+    font-size: 2.2rem;
+}
+
+.question {
+    font-size: 1.4rem;
+    margin: 25px 0;
+    color: #333;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    background-color: #d3d3d3;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin: 7px;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #66cdaa;
+}
+
+.info {
+    margin-top: 25px;
+    font-size: 1.1rem;
+    color: #555;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border-radius: 10px;
+    border: 1px solid #b0c4de;
+    display: none;
+}
+
+.next-btn {
+    margin-top: 25px;
+    background-color: #008CBA;
+    font-size: 1.2rem;
+    display: none;
+    color: white;
+    text-align: center;
+    margin: 0 auto; /* Centre le bouton */
+
+
+}
+
+.final-score {
+    margin-top: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    display: none;
+}
+
+.resources {
+    margin-top: 15px;
+    font-size: 1rem;
+    color: #333;
+    text-decoration: none;
+    display: none;
+}
+
+.resource-link {
+    color: #008CBA;
+    text-decoration: none;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
+
+.correct {
+    background-color: #32cd32 !important; /* Vert pour bonne réponse */
+}
+
+.wrong {
+    background-color: #ff6347 !important; /* Rouge pour mauvaise réponse */
+}
+
+.emoji {
+    font-size: 2rem;
+    margin-top: 10px;
+}
