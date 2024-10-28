@@ -231,7 +231,7 @@ function nextQuestion() {
         loadQuestion();
     } else {
         if (score <= 5){
-            document.getElementById('finalScore').textContent = '😞 Votre score final est : ' + score + '/' + questions.length;
+            document.getElementById('finalScore').textContent = '😞 Votre score final est : ' + score + '/' + questions.length ;
 
         }
         else{
